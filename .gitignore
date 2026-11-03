@@ -1,0 +1,11 @@
+/.bundle/
+/pkg/
+/target/
+/tmp/
+/vendor/
+
+# `rake compile` installs the built object beside the library, which belongs to this machine's Ruby.
+/lib/libglycin_gtk4/*.so
+/lib/libglycin_gtk4/*.bundle
+/lib/libglycin_gtk4/*.dll
+*.gem
